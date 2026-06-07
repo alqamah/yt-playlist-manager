@@ -1,34 +1,62 @@
 {
   "files": {
-    "code": [],
+    "code": [
+      "backend/src/index.ts",
+      "backend/src/models/Category.ts",
+      "backend/src/models/Playlist.ts",
+      "backend/src/models/User.ts",
+      "backend/src/routes/auth.ts",
+      "backend/src/routes/categories.ts",
+      "backend/src/routes/playlists.ts",
+      "backend/src/utils/lis.ts",
+      "backend/src/utils/youtube.ts",
+      "frontend/eslint.config.mjs",
+      "frontend/next.config.ts",
+      "frontend/src/app/layout.tsx",
+      "frontend/src/app/page.tsx",
+      "frontend/src/store/useStore.ts"
+    ],
     "document": [
-      "plan.MD"
+      ".agents/rules/MAIN.md",
+      ".agents/skills/graphify/SKILL.md",
+      ".graphify/GRAPH_REPORT.md",
+      "docs/backend.md",
+      "docs/frontend.md",
+      "docs/plan.MD",
+      "frontend/AGENTS.md",
+      "frontend/CLAUDE.md",
+      "frontend/README.md"
     ],
     "paper": [],
-    "image": [],
+    "image": [
+      "frontend/public/file.svg",
+      "frontend/public/globe.svg",
+      "frontend/public/next.svg",
+      "frontend/public/vercel.svg",
+      "frontend/public/window.svg"
+    ],
     "video": []
   },
-  "total_files": 1,
-  "total_words": 545,
+  "total_files": 28,
+  "total_words": 16571,
   "needs_graph": false,
-  "warning": "Corpus is ~545 words - fits in a single context window. You may not need a graph.",
+  "warning": "Corpus is ~16,571 words - fits in a single context window. You may not need a graph.",
   "skipped_sensitive": [],
-  "graphifyignore_patterns": 0,
+  "graphifyignore_patterns": 17,
   "scope": {
     "requested_mode": "auto",
-    "resolved_mode": "all",
+    "resolved_mode": "committed",
     "source": "default-auto",
     "root": ".",
     "git_root": ".",
-    "candidate_count": null,
-    "included_count": 1,
+    "head": "a19d2b18f09104212600751330ec8690d4823de9",
+    "candidate_count": 46,
+    "included_count": 28,
     "excluded_untracked_count": 0,
-    "excluded_ignored_count": 0,
+    "excluded_ignored_count": 41067,
     "excluded_sensitive_count": 0,
     "missing_committed_count": 0,
-    "warnings": [
-      "Git repository has no HEAD; falling back to all scope."
-    ],
+    "warnings": [],
     "recommendation": "Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder."
   }
 }

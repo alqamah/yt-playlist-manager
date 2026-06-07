@@ -1,6 +1,114 @@
 {
-  "D:\\Proj\\personal\\yt-playlist-mgr\\plan.MD": {
+  "D:\\Proj\\personal\\yt-playlist-mgr\\backend\\src\\index.ts": {
+    "mtime": 1780838217568.9565,
+    "hash": "c70da22f9594f734adbfd9e138fbe3c2"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\backend\\src\\models\\Category.ts": {
+    "mtime": 1780837562550.0046,
+    "hash": "256ff9f80085ce1ea7728b7f8dcfba43"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\backend\\src\\models\\Playlist.ts": {
+    "mtime": 1780837629049.9153,
+    "hash": "9149de8fc8c9e8481ed77161faf6f640"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\backend\\src\\models\\User.ts": {
+    "mtime": 1780838166245.886,
+    "hash": "a0d70686c4eae446ad587d49d06d7f5a"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\backend\\src\\routes\\auth.ts": {
+    "mtime": 1780838196994.9734,
+    "hash": "3b567b157934dbfce2d26c886fdfaae2"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\backend\\src\\routes\\categories.ts": {
+    "mtime": 1780838212539.5786,
+    "hash": "e236892f61d7d70c49e80c9f603950f5"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\backend\\src\\routes\\playlists.ts": {
+    "mtime": 1780838207072.7354,
+    "hash": "cf1c12fe0c80a47e81e5e2a011b7ba6f"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\backend\\src\\utils\\lis.ts": {
+    "mtime": 1780837571206.7502,
+    "hash": "60115f835838252f9f35913e2e025c2c"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\backend\\src\\utils\\youtube.ts": {
+    "mtime": 1780838188090.7988,
+    "hash": "163e859a0295aec29276ff6474b32cc8"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\eslint.config.mjs": {
+    "mtime": 1780836119703.3242,
+    "hash": "dfa1f5f6a7037bf39dc510f30b180002"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\next.config.ts": {
+    "mtime": 1780836119784.2954,
+    "hash": "9b77af189a21a7a64e4bd7a426f64176"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\src\\app\\layout.tsx": {
+    "mtime": 1780837847287.3516,
+    "hash": "a35b454146fe84f1b12549a3d7059807"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\src\\app\\page.tsx": {
+    "mtime": 1780838247822.5786,
+    "hash": "7aa53f66294714dc8403dd6f8e1e019d"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\src\\store\\useStore.ts": {
+    "mtime": 1780838237239.3025,
+    "hash": "d03cc6aa6f3e6854d0823a96388462d5"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\.agents\\rules\\MAIN.md": {
+    "mtime": 1780837138725.215,
+    "hash": "58aebbbef40a9430a7cdd3c264df4e5f"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\.agents\\skills\\graphify\\SKILL.md": {
+    "mtime": 1780835835317.6826,
+    "hash": "b52fb38bbd6569033b01fbaad240f009"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\.graphify\\GRAPH_REPORT.md": {
+    "mtime": 1780835846949.3447,
+    "hash": "399a49ce3807dd5f7d3d243cbdb390d8"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\docs\\backend.md": {
+    "mtime": 1780836167789.3823,
+    "hash": "bae42d6c4ce5fd353e37cd287f597ef5"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\docs\\frontend.md": {
+    "mtime": 1780836161015.8926,
+    "hash": "c61a59ed793c700714a9caeac5952809"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\docs\\plan.MD": {
     "mtime": 1780835547597.6223,
     "hash": "338849ea0bbdaff6bae363eabd7ef0d8"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\AGENTS.md": {
+    "mtime": 1780836221040.389,
+    "hash": "9e09241799026ac05be315a2f0b50055"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\CLAUDE.md": {
+    "mtime": 1780837521873.991,
+    "hash": "771faa62feb60b7de901a397aebb29b0"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\README.md": {
+    "mtime": 1780836119685.1675,
+    "hash": "f15aaa42d5d299d091b1171097ea56ad"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\public\\file.svg": {
+    "mtime": 1780836119734.5479,
+    "hash": "d09f95206c3fa0bb9bd9fefabfd0ea71"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\public\\globe.svg": {
+    "mtime": 1780836119743.9495,
+    "hash": "2aaafa6a49b6563925fe440891e32717"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\public\\next.svg": {
+    "mtime": 1780836119751.0627,
+    "hash": "8e061864f388b47f33a1c3780831193e"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\public\\vercel.svg": {
+    "mtime": 1780836119760.2996,
+    "hash": "c0af2f507b369b085b35ef4bbe3bcf1e"
+  },
+  "D:\\Proj\\personal\\yt-playlist-mgr\\frontend\\public\\window.svg": {
+    "mtime": 1780836119765.3286,
+    "hash": "a2760511c65806022ad20adf74370ff3"
   }
 }
