@@ -1,0 +1,11 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "community_labels": {}
+  },
+  "topology_signature": "n=0;e=0;|",
+  "nodes": [],
+  "links": [],
+  "hyperedges": []
+}
