@@ -429,9 +429,44 @@ export default function Dashboard() {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '0.5rem' }}>
                   {activePlaylist.items.map((video, idx) => (
                     <div key={video.videoId} className="video-item">
+                      {video.thumbnail ? (
+                        <img 
+                          src={video.thumbnail} 
+                          alt={video.title} 
+                          style={{ 
+                            width: '80px', 
+                            height: '45px', 
+                            objectFit: 'cover', 
+                            borderRadius: '4px', 
+                            border: '1px solid rgba(255, 255, 255, 0.1)',
+                            flexShrink: 0 
+                          }} 
+                        />
+                      ) : (
+                        <div 
+                          style={{ 
+                            width: '80px', 
+                            height: '45px', 
+                            background: 'rgba(255, 255, 255, 0.05)', 
+                            borderRadius: '4px', 
+                            display: 'flex', 
+                            alignItems: 'center', 
+                            justifyContent: 'center', 
+                            fontSize: '0.6rem', 
+                            color: '#64748b',
+                            flexShrink: 0
+                          }}
+                        >
+                          No Image
+                        </div>
+                      )}
                       <div className="video-info">
-                        <h4>Video ID: {video.videoId}</h4>
-                        <p>Position: #{video.position + 1}</p>
+                        <h4 title={video.title}>{video.title || 'Unknown Video'}</h4>
+                        <p>
+                          <span>Position: #{video.position + 1}</span>
+                          <span style={{ margin: '0 0.25rem', opacity: 0.4 }}>•</span>
+                          <span style={{ fontFamily: 'monospace' }}>{video.videoId}</span>
+                        </p>
                       </div>
                     </div>
                   ))}

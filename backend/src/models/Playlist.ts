@@ -3,6 +3,8 @@ import mongoose, { Schema, Document } from 'mongoose';
 export interface IPlaylistItem {
   videoId: string;
   position: number;
+  title: string;
+  thumbnail: string;
 }
 
 export interface IPlaylist extends Omit<Document, '_id'> {
@@ -19,7 +21,9 @@ export interface IPlaylist extends Omit<Document, '_id'> {
 
 const PlaylistItemSchema = new Schema({
   videoId: { type: String, required: true },
-  position: { type: Number, required: true }
+  position: { type: Number, required: true },
+  title: { type: String, default: '' },
+  thumbnail: { type: String, default: '' }
 });
 
 const PlaylistSchema = new Schema({

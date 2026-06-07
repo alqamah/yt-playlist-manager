@@ -3,6 +3,8 @@ import { create } from 'zustand';
 export interface PlaylistItem {
   videoId: string;
   position: number;
+  title: string;
+  thumbnail: string;
 }
 
 export interface Playlist {

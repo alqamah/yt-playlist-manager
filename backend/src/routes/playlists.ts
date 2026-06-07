@@ -156,10 +156,19 @@ async function syncPlaylistsFromYouTube(userId: string) {
     }
 
     // Map YouTube items to our embedded schema format
-    const mappedItems = items.map((item: any, index: number) => ({
-      videoId: item.snippet?.resourceId?.videoId || '',
-      position: item.snippet?.position !== undefined ? item.snippet.position : index
-    }));
+    const mappedItems = items.map((item: any, index: number) => {
+      const videoTitle = item.snippet?.title || 'Unknown Video';
+      const videoThumbnail = item.snippet?.thumbnails?.default?.url || 
+                            item.snippet?.thumbnails?.medium?.url || 
+                            item.snippet?.thumbnails?.high?.url || 
+                            '';
+      return {
+        videoId: item.snippet?.resourceId?.videoId || '',
+        position: item.snippet?.position !== undefined ? item.snippet.position : index,
+        title: videoTitle,
+        thumbnail: videoThumbnail
+      };
+    });
 
     const title = pl.snippet?.title || 'Untitled Playlist';
     const description = pl.snippet?.description || '';
